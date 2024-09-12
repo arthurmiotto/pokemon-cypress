@@ -116,15 +116,15 @@ const styles = StyleSheet.create({
     titulo: {
         fontSize: 30,
         fontWeight: 'bold',
-        color: '#0033A0', // Azul escuro
+        color: '#0033A0', 
     },
     inputContainer: {
         flexDirection: 'row',
         alignItems: 'center',
         borderWidth: 1,
-        borderColor: '#333', // Preto
-        borderRadius: 20, // Borda arredondada
-        backgroundColor: '#f0f0f0', // Cinza claro
+        borderColor: '#333', 
+        borderRadius: 20,
+        backgroundColor: '#f0f0f0', 
         paddingHorizontal: 10,
         paddingVertical: 5,
         width: '100%',
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     botaoCadastro: {
         width: '100%',
         height: 50,
-        backgroundColor: '#0033A0', // Azul escuro
+        backgroundColor: '#0033A0',
         borderRadius: 5,
         alignItems: 'center',
         justifyContent: 'center',
