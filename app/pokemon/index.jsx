@@ -6,51 +6,51 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#F5F5F5', // cor de fundo neutra
-    alignItems: 'center', // centraliza o conteúdo horizontalmente
-    justifyContent: 'center', // centraliza o conteúdo verticalmente
+    backgroundColor: '#F5F5F5', 
+    alignItems: 'center', 
+    justifyContent: 'center', 
   },
   header: {
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
-    color: '#0033A0', // azul escuro
+    color: '#0033A0',
   },
   pickerContainer: {
-    width: '80%', // controla a largura do container
+    width: '80%',
     marginBottom: 20,
-    alignItems: 'center', // centraliza o conteúdo dentro do container
+    alignItems: 'center',
   },
   picker: {
     height: 50,
-    borderRadius: 25, // bordas arredondadas
-    backgroundColor: '#FFD700', // amarelo
-    color: '#0033A0', // azul escuro para o texto
+    borderRadius: 25, 
+    backgroundColor: '#FFD700', 
+    color: '#0033A0', 
   },
   pokemonImage: {
     width: 200,
     height: 200,
     marginTop: 20,
-    alignSelf: 'center', // centraliza a imagem horizontalmente
+    alignSelf: 'center',
   },
   text: {
     fontSize: 18,
     marginBottom: 10,
-    color: '#0033A0', // azul escuro
-    textAlign: 'center', // centraliza o texto
+    color: '#0033A0',
+    textAlign: 'center', 
   },
   imageContainer: {
-    alignItems: 'center', // centraliza a imagem horizontalmente
-    justifyContent: 'center', // centraliza a imagem verticalmente
-    flex: 1, // faz o container ocupar todo o espaço disponível
+    alignItems: 'center', 
+    justifyContent: 'center',
+    flex: 1,
   },
   loader: {
     marginTop: 20,
   },
   pickerWrapper: {
-    width: '80%', // largura do picker
-    justifyContent: 'center', // centraliza o picker verticalmente
+    width: '80%',
+    justifyContent: 'center', 
   },
 });
 
